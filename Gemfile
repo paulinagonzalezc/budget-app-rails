@@ -78,3 +78,6 @@ gem 'devise'
 
 # Add devise for authorization
 gem 'cancancan', '~> 1.9'
+
+# Add bootstrap
+gem 'bootstrap', '~> 5.0.0'
