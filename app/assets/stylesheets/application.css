@@ -19,6 +19,10 @@ nav {
   color: white;
 }
 
+.navbar-toggler {
+  color: white;
+}
+
 /* Splash screen */
 
 .splash-container {
@@ -103,7 +107,7 @@ nav {
   margin: 5px;
   padding: 10px;
   border: 2px solid gainsboro;
-  border-radius: 10px;
+  background-color: white;
   width: 23rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -160,7 +164,7 @@ nav {
   margin: 5px;
   padding: 10px;
   border: 2px solid gainsboro;
-  border-radius: 10px;
+  background-color: white;
   width: 25rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -168,11 +172,35 @@ nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
 }
 
+@media only screen and (max-width: 600px) {
+  .transaction-card {
+    width: 19rem;
+  }
+
+  .category-card {
+    width: 19rem;
+  }
+
+  .splash-container {
+    /* border: 1px solid gray; */
+    width: 20rem;
+  }
+
+  .logo {
+    width: 18rem;
+  }
+
+  .shadow {
+    display: none;
+  }
+}
+
 .transactions-title {
   display: flex;
   padding: 10px;
   gap: 7rem;
   border: 2px solid gainsboro;
+  background-color: white;
   margin-bottom: 2rem;
 }
 
