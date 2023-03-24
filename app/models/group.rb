@@ -3,7 +3,7 @@ class Group < ApplicationRecord
   has_many :expenses, through: :group_expenses
   belongs_to :user, class_name: 'User', foreign_key: 'user_id'
 
-  has_one_attached :icon
+  # has_one_attached :icon
 
   validates :name, presence: true, length: { in: 1..20 }
   validates :icon, presence: true
