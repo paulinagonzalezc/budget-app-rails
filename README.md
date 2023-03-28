@@ -57,6 +57,16 @@ My budget app is a mobile and web application where you can manage your budget: 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://rails-kbsp.onrender.com/)
+
+- [Demo Video](https://drive.google.com/file/d/140CCh_BTz6LMRtxW_Awk-f_eEnrhphpz/view?usp=sharing)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -89,8 +99,6 @@ Install this project with:
   bundle install
 ```
 
--
-
 ### Usage
 
 To run the project, execute the following command:
@@ -98,8 +106,6 @@ To run the project, execute the following command:
 ```sh
   rails server
 ```
-
--
 
 ### Run tests
 
