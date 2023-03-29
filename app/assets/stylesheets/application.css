@@ -65,11 +65,6 @@ nav {
   margin: 0;
 }
 
-.shadow {
-  background-color: rgba(188, 188, 188, 0.647);
-  height: 13rem;
-}
-
 /* sign up */
 
 .form-control {
@@ -90,7 +85,7 @@ nav {
 /* Groups/categories */
 
 .get-started {
-  margin-top: 2rem;
+  margin: 2rem 1rem 25rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,6 +106,7 @@ nav {
   width: 23rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
 }
@@ -127,6 +123,13 @@ nav {
 .card-text {
   display: flex;
   flex-direction: column;
+}
+
+.top-card,
+.bottom-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -147,7 +150,6 @@ nav {
 }
 
 .user {
-  margin-top: 1rem;
   font-size: 12px;
 }
 
@@ -168,6 +170,7 @@ nav {
   width: 25rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
 }
@@ -182,15 +185,15 @@ nav {
   }
 
   .splash-container {
-    width: 20rem;
+    width: 30rem;
   }
 
   .logo {
     width: 18rem;
   }
 
-  .shadow {
-    display: none;
+  .date {
+    font-size: 10px;
   }
 }
 
@@ -209,6 +212,15 @@ nav {
 
 .name-amount {
   font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amount {
+  font-size: 15px;
+  margin-bottom: 8px;
 }
 
 .date {

@@ -15,12 +15,16 @@
           <%= image_tag group.icon, alt: 'icon', class: "icon" %>
         </div>
         <div class="card-text">
-        <%= link_to group_path(group.id.to_s), style: "text-decoration: none;" do %>
-          <p class="category-name"><%= group.name %></p>
-        <% end %>
-        <p>$<%= group.expenses.sum(:amount) %></p>
-        <%= link_to 'Learn more →', group_path(group.id.to_s), style: "text-decoration: none;", class: "learn" %>
-        <p class="user">by <%= current_user.name %></p>
+          <div class="top-card">
+            <%= link_to group_path(group.id.to_s), style: "text-decoration: none;" do %>
+              <p class="category-name"><%= group.name %></p>
+            <% end %>
+            <p class="amount">$<%= group.expenses.sum(:amount) %></p>
+          </div>
+          <div class="bottom-card">
+            <p class="date"><%= group.created_at.strftime('%d %B, %Y') %></p>
+            <p class="user">by <%= current_user.name %></p>
+          </div>
         </div>
       </div>
     <% end %>
