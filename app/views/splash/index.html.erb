@@ -1,0 +1,12 @@
+<div class="splash-container">
+  <div class="logo-container">
+    <%= image_tag('pennywise_logo.png', alt: 'Example image', class: 'logo') %>
+    <h3 class="subtitle">All your expenses, together</h3>
+    <p class="min-width: 1">Please create an account or log in</p>
+  </div>
+  <div class="sign-links">
+    <%= link_to 'Sign up', new_user_registration_path,  class: 'btn btn-primary sign-up' %> 
+    <%= link_to 'Log in'.html_safe, new_user_session_path, class: 'log-in' %>
+  </div>
+</div>
+<div class="shadow"></div>
