@@ -226,7 +226,7 @@ nav {
   }
 
   .btn-success {
-    width: 32rem;
+    width: 100vw;
     height: 6rem;
     background-color: #33b93a;
     font-size: 22px;
