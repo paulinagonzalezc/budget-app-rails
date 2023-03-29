@@ -84,6 +84,27 @@ nav {
 
 /* Groups/categories */
 
+.fixed-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-success {
+  width: 25rem;
+  height: 6rem;
+  background-color: #33b93a;
+  font-size: 20px;
+  border: none;
+}
+
+.butt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
 .get-started {
   margin: 2rem 1rem 25rem 1rem;
   display: flex;
@@ -103,7 +124,7 @@ nav {
   padding: 10px;
   border: 2px solid gainsboro;
   background-color: white;
-  width: 23rem;
+  width: 25rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 10px;
@@ -177,11 +198,11 @@ nav {
 
 @media only screen and (max-width: 600px) {
   .transaction-card {
-    width: 19rem;
+    width: 25rem;
   }
 
   .category-card {
-    width: 19rem;
+    width: 25rem;
   }
 
   .splash-container {
@@ -194,6 +215,30 @@ nav {
 
   .date {
     font-size: 10px;
+  }
+
+  .fixed-button {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-success {
+    width: 32rem;
+    height: 6rem;
+    background-color: #33b93a;
+    font-size: 22px;
+    border: none;
+    position: relative;
+  }
+
+  .butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
   }
 }
 
