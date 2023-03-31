@@ -82,4 +82,6 @@ gem 'devise'
 gem 'cancancan', '~> 1.9'
 
 # Add bootstrap
-gem 'bootstrap', '~> 5.0.0'
+gem 'bootstrap', '~> 5.2.2'
+
+gem 'jquery-rails'
