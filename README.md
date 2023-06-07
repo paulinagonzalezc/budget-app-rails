@@ -1,7 +1,7 @@
 <img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="ruby" height="auto" />
 
 <div align="center">
-  <h1><b>Budget App - Pennywise</b></h1>
+  <h1><b>Budget App</b></h1>
 </div>
 
 # 📗 Table of Contents
@@ -28,7 +28,7 @@
 
 # 📖 My Blog App <a name="about-project"></a>
 
-My budget app is a mobile and web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+My budget app is web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you have spent and on what exactly.
 
 ## 🛠 Built With <a name="built-with"></a>
 
