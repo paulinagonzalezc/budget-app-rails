@@ -27,18 +27,18 @@ nav {
 }
 
 /* Splash screen */
-
-.splash-container {
-  /* border: 1px solid gray; */
-  border-radius: 10px;
-  width: 50rem;
-  margin: auto;
-  margin-top: 4rem;
+.app-title {
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+  color: white;
 }
 
-.logo {
-  margin-top: 4rem;
-  width: 40rem;
+.splash-container {
+  background-color: #3778c2;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 200px;
+  margin: 0;
 }
 
 .logo-container {
@@ -55,11 +55,35 @@ nav {
 
 .subtitle {
   margin-top: 2rem;
+  font-size: 15px;
+  color: white;
+}
+
+.sub-sub {
+  font-size: 12px;
+  color: white;
 }
 
 .sign-up,
 .log-in {
   margin-bottom: 0.5rem;
+  background-color: #33b93a;
+  width: 15rem;
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sign-up {
+  border: none;
+}
+
+.log-in {
+  background-color: #3068a5;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 4px;
+  height: 36px;
 }
 
 .notice,
@@ -206,10 +230,6 @@ nav {
 
   .category-card {
     width: 25rem;
-  }
-
-  .splash-container {
-    width: 30rem;
   }
 
   .logo {
