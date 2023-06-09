@@ -77,13 +77,28 @@ nav {
   border: none;
 }
 
+.sign-up:hover {
+  background-color: #237f27;
+}
+
 .log-in {
   background-color: #3068a5;
+  border: 1px solid #3068a5;
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
   padding-top: 4px;
   height: 36px;
+}
+
+.log-in:hover {
+  background-color: #769fce;
+  color: white;
+}
+
+.log {
+  border-radius: 0%;
+  height: 3rem;
 }
 
 .notice,
@@ -94,15 +109,62 @@ nav {
 
 /* sign up */
 
+.sign-up-title,
+.log-in-title {
+  color: white;
+  font-weight: 100;
+  text-align: center;
+}
+
+.header {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 10fr;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  background: rgb(55, 119, 193);
+  background: linear-gradient(
+    180deg,
+    rgba(55, 119, 193, 1) 0%,
+    rgba(43, 94, 153, 1) 100%
+  );
+}
+
+.arrow-back {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  justify-self: center;
+}
+
+.new-sign-up {
+  margin-top: 1rem;
+  background-color: #33b93a;
+  border: none;
+  width: 20rem;
+}
+
+.new-sign-up:hover {
+  background-color: #237f27;
+}
+
+.log-new {
+  margin-top: 10px;
+  text-align: center;
+}
+
 .form-control {
   width: 20rem;
   margin: 10px 0;
 }
 
 .form-container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
 .actions {
