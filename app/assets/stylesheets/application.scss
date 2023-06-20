@@ -68,7 +68,6 @@ nav {
 .log-in {
   margin-bottom: 0.5rem;
   background-color: #33b93a;
-  width: 15rem;
   color: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -88,17 +87,25 @@ nav {
   text-decoration: none;
   text-align: center;
   padding-top: 4px;
-  height: 36px;
+  height: 4rem;
+  width: 22rem;
+  margin: 20px 0;
 }
 
 .log-in:hover {
   background-color: #769fce;
+  border: none;
   color: white;
+}
+
+.remember-me {
+  color: gray;
 }
 
 .log {
   border-radius: 0%;
-  height: 3rem;
+  height: 4rem;
+  width: 22rem;
 }
 
 .notice,
@@ -114,9 +121,12 @@ nav {
   color: white;
   font-weight: 100;
   text-align: center;
+  margin-right: 15px;
+  margin-bottom: 0;
 }
 
 .header {
+  width: 100vw;
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 1fr 10fr;
@@ -136,6 +146,7 @@ nav {
   font-size: 30px;
   font-weight: 100;
   justify-self: center;
+  margin-left: 25px;
 }
 
 .new-sign-up {
@@ -155,20 +166,25 @@ nav {
 }
 
 .form-control {
-  width: 20rem;
-  margin: 10px 0;
+  margin: 25px 0;
 }
 
 .form-container {
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
+  margin-top: 2rem;
 }
 
 .actions {
   text-align: center;
+}
+
+.forgot-pass {
+  color: lightgray;
 }
 
 /* Groups/categories */
@@ -192,6 +208,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  margin-top: 5rem;
 }
 
 .get-started {
