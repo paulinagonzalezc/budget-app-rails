@@ -44,6 +44,7 @@ nav {
 .logo-container {
   display: flex;
   flex-direction: column;
+  margin: 20px 0;
   align-items: center;
 }
 
@@ -67,6 +68,7 @@ nav {
 .sign-up,
 .log-in {
   margin-bottom: 0.5rem;
+  width: 10rem;
   background-color: #33b93a;
   color: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -80,6 +82,15 @@ nav {
   background-color: #237f27;
 }
 
+.session-btn {
+  background-color: #3068a5;
+  border: 1px solid #3068a5;
+  padding-top: 4px;
+  height: 4rem;
+  width: 22rem;
+  margin: 20px 0;
+}
+
 .log-in {
   background-color: #3068a5;
   border: 1px solid #3068a5;
@@ -87,9 +98,7 @@ nav {
   text-decoration: none;
   text-align: center;
   padding-top: 4px;
-  height: 4rem;
-  width: 22rem;
-  margin: 20px 0;
+  height: 2rem;
 }
 
 .log-in:hover {
@@ -147,13 +156,26 @@ nav {
   font-weight: 100;
   justify-self: center;
   margin-left: 25px;
+  text-decoration: none;
 }
 
 .new-sign-up {
   margin-top: 1rem;
   background-color: #33b93a;
   border: none;
-  width: 20rem;
+  padding-top: 4px;
+  height: 4rem;
+  width: 22rem;
+  margin: 20px 0;
+}
+
+.session-btn {
+  background-color: #3068a5;
+  border: 1px solid #3068a5;
+  padding-top: 4px;
+  height: 4rem;
+  width: 22rem;
+  margin: 20px 0;
 }
 
 .new-sign-up:hover {
@@ -166,7 +188,7 @@ nav {
 }
 
 .form-control {
-  margin: 25px 0;
+  margin: 20px 0;
 }
 
 .form-container {
@@ -183,11 +205,37 @@ nav {
   text-align: center;
 }
 
+.minimum-words {
+  color: gray;
+}
+
 .forgot-pass {
   color: lightgray;
 }
 
 /* Groups/categories */
+
+.groups-header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  background: rgb(55, 119, 193);
+  background: linear-gradient(
+    180deg,
+    rgba(55, 119, 193, 1) 0%,
+    rgba(43, 94, 153, 1) 100%
+  );
+}
+
+.groups-title {
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 0;
+}
 
 .fixed-button {
   display: flex;
@@ -198,9 +246,21 @@ nav {
 .btn-success {
   width: 25rem;
   height: 6rem;
-  background-color: #33b93a;
+  background-color: #60b523;
   font-size: 20px;
   border: none;
+  padding: 5px;
+  position: relative;
+}
+
+.btn-success::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 2px solid white;
 }
 
 .butt {

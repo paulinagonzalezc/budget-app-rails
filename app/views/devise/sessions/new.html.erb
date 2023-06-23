@@ -1,5 +1,5 @@
 <div class="header">
-    <div class="arrow-back">←</div>
+    <%= link_to "←", root_path, class:"arrow-back" %>
     <h2 class="log-in-title">Sign in to your account</h2>
 </div>
 
@@ -21,7 +21,7 @@
     <% end %>
 
     <div class="actions">
-      <%= f.submit "Log in", class: "btn btn-primary log-in" %>
+      <%= f.submit "Log in", class: "btn btn-primary session-btn" %>
     </div>
   <% end %>
   <%= render "devise/shared/links" %>

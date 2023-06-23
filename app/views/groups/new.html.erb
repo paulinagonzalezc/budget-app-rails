@@ -1,5 +1,7 @@
-<%= render "shared/nav" %>
-<h1 class="title">Add New Category</h1>
+<div class="groups-header">
+    <%= link_to "←", root_path, class:"arrow-back" %>
+    <h2 class="groups-title">Add New Category</h2>
+</div>
 
 <div class="form-container">
 <%= form_with model: @group, url: groups_path, local: true do |f| %>
@@ -17,7 +19,10 @@
         ['more.png', 'Others 📓']
       ], :first, :last, { prompt: 'Select Icon' }, { class: 'form-control' }) %>
   </div>
-
-  <%= f.submit "Save", class:"btn btn-primary sign-up" %>
+  <div class="fixed-button">
+    <div class="text-center link-to">
+      <%= f.submit "Save", class:"btn btn-primary sign-up" %>
+    </div>
+  </div>
 <% end %>
 </div>
