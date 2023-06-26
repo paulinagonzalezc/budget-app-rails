@@ -65,7 +65,7 @@ My budget app is web application where you can manage your budget: you have a li
 
 - [Demo Video](https://drive.google.com/file/d/140CCh_BTz6LMRtxW_Awk-f_eEnrhphpz/view?usp=sharing)
 
-If you don't feel like creating a new account, you can log in with this with these credentials:
+**If you don't feel like creating a new account, you can log in with this with these credentials:**
 
 > username: paulina@gmail.com
 > password: 123456
