@@ -1,4 +1,7 @@
-<%= render "shared/nav" %>
+<div class="groups-header">
+    <h2 class="groups-title">Snapbudget</h2>
+</div>
+
 
 <div class="categories">
   <% if @groups.empty? %>
@@ -29,9 +32,11 @@
       </div>
     <% end %>
   <% end %>
+  
+  <%= button_to 'Sign out', destroy_user_session_path, method: :delete, class: 'btn btn-outline-danger' %> 
 
   <div class="fixed-button">
-    <div class="text-center link-to">
+    <div class="link-to">
       <%= link_to 'Add New Category'.html_safe, new_group_path, class: "butt btn-success button-link" %>
     </div>
   </div>
