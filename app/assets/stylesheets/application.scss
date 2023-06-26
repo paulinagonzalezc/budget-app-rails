@@ -241,12 +241,14 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 20px;
 }
 
 .btn-success {
   width: 25rem;
   height: 6rem;
-  background-color: #60b523;
+  background-color: #33b93a;
   font-size: 20px;
   border: none;
   padding: 5px;
@@ -261,6 +263,18 @@ nav {
   right: 10px;
   bottom: 10px;
   border: 2px solid white;
+}
+
+.save-button-des {
+  width: 22rem;
+  height: 6rem;
+  background-color: #33b93a;
+  font-size: 20px;
+  border: none;
+  padding: 5px;
+  position: fixed;
+  bottom: 20px;
+  color: white;
 }
 
 .butt {
@@ -294,7 +308,7 @@ nav {
   padding: 10px;
   border: 2px solid gainsboro;
   background-color: white;
-  width: 25rem;
+  width: 22rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 10px;
@@ -344,6 +358,10 @@ nav {
   font-size: 12px;
 }
 
+.label-text {
+  color: gray;
+}
+
 /* transactions */
 
 .transactions-container {
@@ -358,7 +376,7 @@ nav {
   padding: 10px;
   border: 2px solid gainsboro;
   background-color: white;
-  width: 25rem;
+  width: 22rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 10px;
@@ -368,11 +386,11 @@ nav {
 
 @media only screen and (max-width: 600px) {
   .transaction-card {
-    width: 25rem;
+    width: 22rem;
   }
 
   .category-card {
-    width: 25rem;
+    width: 22rem;
   }
 
   .logo {
@@ -383,16 +401,9 @@ nav {
     font-size: 10px;
   }
 
-  .fixed-button {
-    position: fixed;
-    bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .btn-success {
-    width: 100vw;
+    width: 22rem;
+    margin: auto;
     height: 6rem;
     background-color: #33b93a;
     font-size: 22px;
@@ -405,6 +416,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    margin-top: 5rem;
   }
 }
 
