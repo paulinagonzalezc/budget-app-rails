@@ -14,16 +14,15 @@ body {
 
 nav {
   background-color: #3778c2;
+  border: 1px solid #3778c2;
+  padding-bottom: 0 !important;
+  color: white;
 }
 
 .nav-link,
 .navbar-brand {
   color: white;
   margin-left: 10px;
-}
-
-.navbar-toggler {
-  color: white;
 }
 
 /* Splash screen */
@@ -208,6 +207,7 @@ nav {
 
 .groups-header {
   width: 100vw;
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
